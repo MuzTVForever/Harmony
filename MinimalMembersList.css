@@ -1,0 +1,42 @@
+.members-1998pB,
+.membersWrap-2h-GB4,
+.searchResultsWrap-3-pOjs {
+    border-radius: 0 0 0 0 !important;
+    width: 62px;
+    min-width: 60px;
+    transition-property: width, min-width;
+    transition-duration: 800ms;
+}
+
+    .members-1998pB:hover,
+    .membersWrap-2h-GB4:hover {
+        width: 240px;
+        min-width: 240px;
+    }
+
+    .searchResultsWrap-3-pOjs:hover {
+        width: 418px;
+        min-width: 418px;
+    }
+
+.searchResultGroup-1DphGG {
+    width: 394px;
+}
+
+.membersWrap-2h-GB4,
+.searchResultsWrap-3-pOjs {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    box-shadow: none;
+}
+
+.chatContent-a9vAAp {
+    min-width: calc(100% - 60px);
+    max-width: calc(100% - 60px);
+}
+
+    .chatContent-a9vAAp[aria-label=" (channel)"] {
+        min-width: 100%;
+        max-width: 100%;
+    }
