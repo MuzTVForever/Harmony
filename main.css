@@ -140,13 +140,6 @@
         transition: opacity 150ms;
     }
 
-    :root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded=false] {
-        position: fixed;
-        bottom: 49.5px;
-        left: 350.5px;
-        z-index: 2;
-        margin: 0;
-    }
 
     :root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded=false] > .avatar-SmRMf2 {
     width: 40px !important;
