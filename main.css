@@ -1,3 +1,6 @@
+.childWrapper-anI2G9 { background: url('https://media.discordapp.net/attachments/860284228281565184/860288865415069726/PicsArt_07-02-01.40.26.jpg') center/cover no-repeat !important;}
+.homeIcon-FuNwkv { display: none;}
+
 :root {
     --TB-top: calc(var(--server-container) + var(--window-padding));
     --TB-tr-roundness: var(--window-roundness);
@@ -14,6 +17,7 @@
     --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
     --text-shadow: 1;
     --chat-embed: var(--background-secondary);
+    --discord-logo: none;
     --discord-green: 67,181,129;
     --discord-yellow: 219,171,9;
     --discord-red: 215,58,73;
