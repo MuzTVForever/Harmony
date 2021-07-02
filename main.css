@@ -4,35 +4,6 @@
 .homeIcon-FuNwkv {
     display: none;
 }
-:root {
-    --status-background: url("https://i.imgur.com/yHP6sgj.png");
-    --user-buttons-spacing: 8px;
-    --avatar-left: 327.5px;
-    --avatar-bottom: 26.5px;
-    --avatar-radius: 5px;
-    --status-radius: 3px;
-    --server-radius: 8px;
-    --avatar-width: 130px;
-    --bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
-    --colored-emoji: grayscale(0%);
-    --mention-color: #f04747;
-    --unread-color: #7289da;
-    --mention-color-bar: #C66262;
-    --mention-color-background: #c662621f;
-    --mention-color-hover: #c6626226;
-    --spotify-in-discord__spotify-brand-color: #1ed760;
-    --spotify-color: #1ed760 !important;
-    --user-buttons-color: #096dc0;
-    --chat-buttons: #6E85D3;
-    --online: #43B581;
-    --iddle: #FAA61A;
-    --dnd: #F04747;
-    --offline: #747F8D;
-    --streaming: #593695;
-    --role-circle: 5px;
-    --tooltips: block;
-    --discord-logo: none;
-}
 
 :root {
     --TB-top: calc(var(--server-container) + var(--window-padding));
