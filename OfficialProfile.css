@@ -1,5 +1,5 @@
 /* Custom Color Nickname + official Profile v1 */
-.userPopout-xaxa6l[data-user-id="271920603668152321"] .profileBadges-3cJaE1::before {
+.userPopout-xaxa6l[data-user-id="271920603668152321"] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[vz-user-id="271920603668152321"] .profileBadges-3cJaE1::before {
     content: "";
     position: relative;
     width: 20px;
@@ -9,7 +9,7 @@
     background: url("https://cdn.discordapp.com/emojis/811010999061708830.gif?v=1") center/100% no-repeat;
 }
 
-.member-3-YXUe .wrapper-3t9DeA[data-user-id="271920603668152321"]::before {
+.member-3-YXUe .wrapper-3t9DeA[data-user-id="271920603668152321"]::before, .member-3-YXUe .wrapper-3t9DeA[vz-user-id="271920603668152321"]::before {
     content: "";
     position: absolute;
     width: 18px;
