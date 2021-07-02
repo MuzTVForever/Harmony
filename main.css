@@ -1,5 +1,248 @@
-.childWrapper-anI2G9 { background: url('https://media.discordapp.net/attachments/860284228281565184/860288865415069726/PicsArt_07-02-01.40.26.jpg') center/cover no-repeat !important;}
-.homeIcon-FuNwkv { display: none;}
+.childWrapper-anI2G9 {
+    background: url('https://media.discordapp.net/attachments/860284228281565184/860288865415069726/PicsArt_07-02-01.40.26.jpg') center/cover no-repeat !important;
+}
+.homeIcon-FuNwkv {
+    display: none;
+}
+:root {
+    --status-background: url("https://i.imgur.com/yHP6sgj.png");
+    --user-buttons-spacing: 8px;
+    --avatar-left: 327.5px;
+    --avatar-bottom: 26.5px;
+    --avatar-radius: 5px;
+    --status-radius: 3px;
+    --server-radius: 8px;
+    --avatar-width: 130px;
+    --bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
+    --colored-emoji: grayscale(0%);
+    --mention-color: #f04747;
+    --unread-color: #7289da;
+    --mention-color-bar: #C66262;
+    --mention-color-background: #c662621f;
+    --mention-color-hover: #c6626226;
+    --spotify-in-discord__spotify-brand-color: #1ed760;
+    --spotify-color: #1ed760 !important;
+    --user-buttons-color: #096dc0;
+    --chat-buttons: #6E85D3;
+    --online: #43B581;
+    --iddle: #FAA61A;
+    --dnd: #F04747;
+    --offline: #747F8D;
+    --streaming: #593695;
+    --role-circle: 5px;
+    --tooltips: block;
+    --discord-logo: none;
+}
+    :root .spotify-in-discord-player-seek-bar {
+        position: absolute;
+        bottom: 0;
+        width: 240px;
+        height: 52px !important;
+        -webkit-mask-image: linear-gradient(0.25turn, #0009, #00000021);
+        mask-image: linear-gradient(0.25turn, #0009, #0003);
+    }
+
+    :root .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp, :root .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .hoverRoll-YK53gQ {
+        z-index: 3;
+    }
+
+    :root .spotify-in-discord-player-controls > .button-14-BFJ.enabled-2cQ-u7:hover {
+        background-color: transparent;
+    }
+
+    :root .spotify-in-discord-player-seek-bar-cursor {
+        display: none;
+    }
+
+    :root .spotify-in-discord-player .container-3baos1 {
+        margin-bottom: 0;
+    }
+
+    :root .powercord-spotify .spotify-seek-bar-progress {
+        background-color: var(--spotify-color) !important;
+    }
+
+    :root .powercord-spotify .spotify-seek-bar {
+        position: absolute;
+        bottom: 0;
+        width: 240px;
+        height: 56px;
+        -webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);
+        mask-image: linear-gradient(0.25turn, #0009, #0003);
+    }
+
+    :root .powercord-spotify.hover .spotify-seek-bar {
+        height: 64px;
+    }
+
+    :root .powercord-spotify .avatarWrapper-2yR4wp, :root .powercord-spotify .nameTag-3uD-yy, :root .spotify-buttons, :root .spotify-seek-duration {
+        z-index: 1;
+    }
+
+    :root .spotify-extra-controls {
+        position: relative;
+        z-index: 1;
+    }
+
+    :root .powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar {
+        height: 79px !important;
+    }
+
+    :root .powercord-spotify .spotify-buttons, :root .spotify-extra-controls .button-14-BFJ.enabled-2cQ-u7:hover {
+        background-color: transparent;
+    }
+
+    :root ::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    :root .note-3HfJZ5 {
+        margin-right: 0;
+    }
+
+    :root .content-1x5b-n {
+        margin: 0 !important;
+        border-radius: 0;
+    }
+
+    :root .mainContent-u_9PKf {
+        padding-left: 8px;
+    }
+
+    :root .member-3-YXUe, :root [id*=private-channels-] {
+        margin: 0;
+        max-width: unset;
+    }
+
+    :root .layout-2DM8Md {
+        border-radius: 0;
+        padding: 0 16px;
+    }
+
+    :root .unread-2lAfLh {
+        z-index: 1;
+    }
+
+    :root .scroller-2hZ97C {
+        padding-left: 0;
+    }
+
+        :root .scroller-2hZ97C > .content-3YMskv, :root .buttons-3JBrkn, :root .messagesPopout-24nkyi {
+            padding-right: 10px !important;
+        }
+
+    :root .inviteRow-2L02ae {
+        border-radius: 0;
+        padding-left: 15px;
+    }
+
+    :root .buttons-cl5qTG {
+        transition: opacity 150ms;
+    }
+
+    :root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded=false] {
+        position: fixed;
+        bottom: 49.5px;
+        left: 350.5px;
+        z-index: 2;
+        margin: 0;
+    }
+
+    :root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded=false] > .avatar-SmRMf2 {
+    width: 40px !important;
+    height: 40px !important;
+    }
+
+
+    :root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded=false] > .avatar-SmRMf2:hover {
+        opacity: 1;
+    }
+
+    :root .form-2fGMdU {
+    padding-left: 66px;
+    }
+
+
+
+:root #status-picker {
+  position: fixed;
+  bottom: 0px;
+  left: -6px;
+  width: 235px;
+  height: 100px;
+  border-radius: 8px;
+}
+:root #status-picker > .scroller-3BxosC {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 40px 40px;
+  margin: auto 4px 4px 4px;
+}
+:root #status-picker > .scroller-3BxosC .item-1tOPte:not(#status-picker-custom-status) > .statusItem-33LqPf {
+  grid-template-columns: 100% 1fr;
+}
+:root #status-picker > .scroller-3BxosC .item-1tOPte, :root #status-picker > .scroller-3BxosC .submenuContainer-2gbm7M > .item-1tOPte {
+  border-radius: 5px;
+  margin: 3px;
+  padding: 0;
+  transition: background 120ms;
+}
+:root #status-picker > .scroller-3BxosC .item-1tOPte .mask-1qbNWk.icon-1IxfJ2, :root #status-picker > .scroller-3BxosC .submenuContainer-2gbm7M > .item-1tOPte .mask-1qbNWk.icon-1IxfJ2 {
+  height: 18px;
+  width: 18px;
+  margin: auto;
+}
+:root #status-picker > .scroller-3BxosC .customEmoji-2_2FwB {
+  width: 20px;
+  height: 20px;
+}
+:root #status-picker > .scroller-3BxosC .customText-tY5LJn {
+  font-size: 15px;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-online {
+  color: #43b581;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-online.focused-3afm-j {
+  background-color: #43b58244;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-idle {
+  color: #faa61a;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-idle.focused-3afm-j {
+  background-color: #faa81a42;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-dnd {
+  color: #f04747;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-dnd.focused-3afm-j {
+  background-color: #b83a3c3d;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-invisible {
+  color: #747f8d;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-invisible.focused-3afm-j {
+  background-color: #747f8d3d;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-custom-status {
+  grid-column: 1/5;
+  margin: auto 3px !important;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-custom-status.focused-3afm-j {
+  background-color: #ffcd4d3d;
+}
+:root #status-picker > .scroller-3BxosC #status-picker-custom-status .customEmojiPlaceholder-37iZ_j {
+  background-image: url("https://nyri4.github.io/Comfy/assets/emoji.png");
+}
+:root #status-picker > .scroller-3BxosC #status-picker-custom-status .status-1fhblQ {
+  display: block;
+}
+:root #status-picker > .scroller-3BxosC .separator-2I32lJ, :root #status-picker > .scroller-3BxosC .status-1fhblQ,
+:root #status-picker > .scroller-3BxosC .description-2L932D {
+  display: none;
+}
+
+
+
 
 :root {
     --TB-top: calc(var(--server-container) + var(--window-padding));
@@ -17,7 +260,6 @@
     --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
     --text-shadow: 1;
     --chat-embed: var(--background-secondary);
-    --discord-logo: none;
     --discord-green: 67,181,129;
     --discord-yellow: 219,171,9;
     --discord-red: 215,58,73;
@@ -28,6 +270,7 @@
     --discord-spotify: 29,185,84;
     --discord-twitch: 89,54,149;
     --discord-xbox: 16,124,16;
+    --discord-logo: none;
     --version: "Frosted Glass 2.0.9";
 }
 
