@@ -35,7 +35,18 @@
 .member-3-YXUe[vz-user-id="271920603668152321"] .roleColor-rz2vM0,
 .userPopout-xaxa6l[data-user-id="271920603668152321"] .username-2b1r56,
 .userPopout-xaxa6l[vz-user-id="271920603668152321"] .username-2b1r56,
-.root-3QyAh1[data-user-id="271920603668152321"] .username-2b1r56 {
+.root-3QyAh1[data-user-id="271920603668152321"] .username-2b1r56,
+
+.message-2qnXI6[data-user-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="860625185438171166"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="860625185438171166"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="860625185438171166"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="860625185438171166"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="860625185438171166"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="860625185438171166"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="860625185438171166"] .username-2b1r56,
+.root-3QyAh1[data-user-id="860625185438171166"] .username-2b1r56 {
     color: transparent !important;
     font-weight: bold;
     background-size: 300%;
@@ -49,6 +60,16 @@
     }
 }
 
+.message-2qnXI6[data-user-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="860625185438171166"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="860625185438171166"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="860625185438171166"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="860625185438171166"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="860625185438171166"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="860625185438171166"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="860625185438171166"] .username-2b1r56,
+.root-3QyAh1[data-user-id="860625185438171166"] .username-2b1r56,
 
 .message-2qnXI6[data-user-id="271920603668152321"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
 .message-2qnXI6[data-author-id="271920603668152321"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
@@ -62,3 +83,5 @@
 .root-3QyAh1[data-user-id="271920603668152321"] .username-2b1r56 {
     background-image: linear-gradient(-60deg, #FDC7C5 0%, #FEC4DF 10%, #EFC8F3 20%, #D2D0FC 30%, #B0DAF6 40%, #9AE1E3 50%, #9FE2C9 60%, #B8DFB2 70%, #D6D8A7 80%, #EFCFAF 90%, #FDC7C5 100%);
 }
+
+
