@@ -6,6 +6,17 @@
   --tooltips: none;
 }
 
+/*Servers Animation*/
+
+.wrapper-3NnKdC {
+    opacity: 0;
+    transition: opacity 200ms ease;
+}
+.wrapper-3NnKdC:hover {
+    opacity: 1;
+}
+
+
 /*main colors*/
 
 .theme-dark {
