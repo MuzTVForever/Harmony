@@ -1,29 +1,29 @@
 /* Harmony Colored Chats Menu */
 .theme-dark {
-  --colour-1: #419E85;
-  --colour-2: #3EC3A4;
+  --colour-1: #0BB494;
+  --colour-2: #0BB494;
   --colour-3: #0BB494;
-  --colour-4: #BBF49B;
-  --colour-5: #9CE69D;
-  --colour-6: #6FD7A3;
-  --colour-7: #9CE69D;
-  --colour-8: #BBF49B;
+  --colour-4: #0BB494;
+  --colour-5: #0BB494;
+  --colour-6: #0BB494;
+  --colour-7: #0BB494;
+  --colour-8: #0BB494;
   --colour-9: #0BB494;
-  --colour-10: #3EC3A4;
+  --colour-10: #0BB494;
   }
 
 .theme-light {
-  --colour-1: #419E85;
-  --colour-2: #3EC3A4;
+  --colour-1: #0BB494;
+  --colour-2: #0BB494;
   --colour-3: #0BB494;
-  --colour-4: #BBF49B;
-  --colour-5: #9CE69D;
-  --colour-6: #6FD7A3;
-  --colour-7: #9CE69D;
-  --colour-8: #BBF49B;
+  --colour-4: #0BB494;
+  --colour-5: #0BB494;
+  --colour-6: #0BB494;
+  --colour-7: #0BB494;
+  --colour-8: #0BB494;
   --colour-9: #0BB494;
-  --colour-10: #3EC3A4;
-  }
+  --colour-10: #0BB494;
+ }
 
 .modeMuted-onO3r-,.muted-2JBAyG{
     opacity: 0.5;
