@@ -16,17 +16,6 @@
     opacity: 1;
 }
 
-.wrapper-3NnKdC {
-    width: 1px;
-    min-width: 1px;
-    transition-property: width, min-width;
-    transition: 400ms ease;
-}
-.wrapper-3NnKdC:hover{
-  width: 70px;
-  min-width: 68px;
-}
-
 
 /*main colors*/
 
