@@ -7,13 +7,22 @@
 }
 
 /*Servers Animation*/
-
 .wrapper-3NnKdC {
     opacity: 0;
     transition: opacity 200ms ease;
 }
 .wrapper-3NnKdC:hover {
     opacity: 1;
+}
+.wrapper-3NnKdC {
+    width: 2px;
+    min-width: 2px;
+    transition-property: width, min-width;
+    transition: 400ms;
+}
+.wrapper-3NnKdC:hover{
+  width: 70px;
+  min-width: 68px;
 }
 
 
