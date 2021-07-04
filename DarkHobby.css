@@ -1,3 +1,4 @@
+/*RadialStatus*/
 :root {
   --status-background: #131313;
   --user-buttons-color: #5d5d5d;
@@ -6,8 +7,7 @@
   --tooltips: none;
 }
 
-/*main colors*/
-
+/*colors*/
 .theme-dark {
     --background-tertiary: #131313;
     --background-secondary: #1d1d1d;
@@ -27,36 +27,30 @@
 }
  
 /*connected accounts in profile*/
-
 .connectedAccount-36nQx7 {
   border: solid #1d1d1d;
 }
 
 /*friends window backgroud*/
-
 #app-mount .container-1D34oG {
     background: #1d1d1d;
 }
 
 /*header playing*/
-
 .headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
   background-color: #2d2d2d;
   box-shadow: 0px 4px 15px #1d1d1d;
   color: #ffffff;
 }
-
 .headerPlaying-j0WQBV .activityUserPopout-2yItg2 {
   background: #1d1d1d;
   box-shadow: 0px 4px 0px #1d1d1d;
 }
-
 .headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { 
   background-color: #5d5d5d;
 }
 
 /*header spotify*/
-
 .headerSpotify-zpWxgT
   .buttonsWrapper-2spIeK
   .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
@@ -64,110 +58,89 @@
   box-shadow: 0 4px 15px #1d1d1d; 
   color: #ffffff;
 }
-
 .headerSpotify-zpWxgT .activityUserPopout-2yItg2 {
   background: #1d1d1d;
   box-shadow: 0px 4px 0px #1d1d1d;
 }
-
 .headerSpotify-zpWxgT .buttonsWrapper-2spIeK .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { 
   background-color: #5d5d5d;
 }
 
 /*header streaming*/
-
 .headerStreaming-2FjmGz  .buttonsWrapper-2spIeK
   .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
   background-color: #2d2d2d;
   box-shadow: 0 4px 15px #1d1d1d; 
   color: #ffffff;
 }
-
 .headerStreaming-2FjmGz .activityUserPopout-2yItg2 {
   background: #1d1d1d;
   box-shadow: 0px 4px 0px #1d1d1d;
 }
-
 .headerStreaming-2FjmGz .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { 
   background-color: #5d5d5d;
 }
 
 /*top section normal*/
-
 .topSectionNormal-2-vo2m .actionButton-3W1xZa {
   background: #2d2d2d !important;
 }
 
 /*top section playing*/
-
 .topSectionPlaying-1J5E4n .activityProfile-2bJRaP {
   background: #1d1d1d;
   box-shadow: 0px 4px 0px #1d1d1d;
 }
-
 .topSectionPlaying-1J5E4n .actionButton-3W1xZa {
   color: #ffffff;
   background: #2d2d2d !important;
 }
-
 .topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4 {
   background-color: #2d2d2d;
   box-shadow: 0px 4px 15px #1d1d1d;
   color: #ffffff;
 }
-
 .topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4:hover { 
   background-color: #5d5d5d;
 }
 
 /*top section spotify*/
-
 .topSectionSpotify-1lI0-P .activityProfile-2bJRaP {
   background: #1d1d1d;
   box-shadow: 0px 4px 0px #1d1d1d;
 }
-
 .topSectionSpotify-1lI0-P .actionButton-3W1xZa {
   color: #ffffff;
   background: #2d2d2d !important;
 }
-
 .topSectionSpotify-1lI0-P .actionsProfile-jEtjVX .button-2IFFQ4 {
   background-color: #2d2d2d;
   box-shadow: 0px 4px 15px #1d1d1d;
   color: #ffffff;
 }
-
 .topSectionSpotify-1lI0-P .actionsProfile-jEtjVX .button-2IFFQ4:hover { 
   background-color: #5d5d5d;
 }
 
 /*top section streaming*/
-
 .topSectionStreaming-1Tpf5X .activityProfile-2bJRaP {
   background: #1d1d1d;
   box-shadow: 0px 4px 0px #1d1d1d;
 }
-
 .topSectionStreaming-1Tpf5X .header-QKLPzZ .button-38aScr {
   color: #ffffff;
   background: #2d2d2d !important;
 }
-
 .topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX .button-2IFFQ4 {
   background-color: #2d2d2d;
   box-shadow: 0px 4px 15px #1d1d1d;
   color: #ffffff;
 }
-
 .topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX .button-2IFFQ4:hover { 
   background-color: #5d5d5d;
 }
 
 /*for selected in that scroll list for pings in chat*/
-
 .theme-dark .selected-1Tbx07 {
   background: #2d2d2d;
 }
-custom.css
-5 кб
