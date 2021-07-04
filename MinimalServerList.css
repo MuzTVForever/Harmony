@@ -7,12 +7,13 @@
     opacity: 1;
 }
 .wrapper-3NnKdC {
-    width: 3px;
+    border-radius: 0 0 0 0 !important;
+    width: 2px;
     min-width: 2px;
     transition-property: width, min-width;
     transition: 200ms ease;
 }
 .wrapper-3NnKdC:hover{
   width: 70px;
-  min-width: 68px;
+  min-width: 70px;
 }
