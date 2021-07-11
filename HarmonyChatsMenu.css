@@ -1,15 +1,15 @@
 /* Harmony Colored Chats Menu */
 .theme-dark {
-  --colour-1: #4c45b1;
-  --colour-2: #4c45b1;
-  --colour-3: #4c45b1;
-  --colour-4: #4c45b1;
-  --colour-5: #4c45b1;
-  --colour-6: #4c45b1;
-  --colour-7: #4c45b1;
-  --colour-8: #4c45b1;
-  --colour-9: #4c45b1;
-  --colour-10: #4c45b1;
+  --colour-1: #0BB494;
+  --colour-2: #0BB494;
+  --colour-3: #0BB494;
+  --colour-4: #0BB494;
+  --colour-5: #0BB494;
+  --colour-6: #0BB494;
+  --colour-7: #0BB494;
+  --colour-8: #0BB494;
+  --colour-9: #0BB494;
+  --colour-10: #0BB494;
   }
 
 .theme-light {
@@ -175,3 +175,4 @@
 #channels div div:nth-child(50) div div a div, #channels div div:nth-child(50) div div a div svg, #channels div div:nth-child(50) div div.mainContent-2h-GEV, #channels div div:nth-child(50) div div.mainContent-2h-GEV h2{
     color: var(--colour-10);
 }
+
