@@ -17,9 +17,6 @@
   z-index: 99;
   transition: all 0.5s ease;
 }
-.sidebar.open{
-  width: 260px;
-}
 .sidebar .logo-details{
   height: 60px;
   display: flex;
