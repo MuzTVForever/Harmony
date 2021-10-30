@@ -1,3 +1,23 @@
 @import url('https://muztvforever.github.io/Harmony/TwoColumsInVoiceChats.css');
 @import url('https://muztvforever.github.io/Harmony/MinimalMembersList.css');
 @import url('https://muztvforever.github.io/Harmony/MinimalServerList.css');
+
+/* Name Theme */
+ .titleBar-AC4pGV .wordmark-2iDDfm svg {
+    width: 0;
+}
+#app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after {
+    content: "DARK HARMONY";
+    position: absolute;
+    font-family: "Google Sans";
+    background: -webkit-gradient(linear, right top, left top, color-stop(60%,#419E85), to(#9CE69D));
+    background: linear-gradient(270deg,#419E85 60%,#9CE69D);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 200%;
+    font-size: 13px;
+    font-weight: 600;
+    top: 5px;
+    width: 110px;
+}
