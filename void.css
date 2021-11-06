@@ -1,0 +1,678 @@
+/**
+* @name Void Discord
+* @version Self-updating version
+* @description This theme was made for personal, convenient and enjoyable use by MuzMods
+* @author MuzMods (MuzTV#6228)
+* @donate https://clck.ru/UZSUw
+* @invite 5JUvKD84eA
+*/
+
+/*@import url('https://muztvforever.github.io/Harmony/MinimalMembersList.css');*/
+@import url('https://muztvforever.github.io/Harmony/MinimalServerList.css');
+@import url('https://discordstyles.github.io/RadialStatus/base.css');
+@import url('https://fonts.googleapis.com/css2?family=Jost');
+
+
+
+/* Name Theme */
+ .titleBar-AC4pGV .wordmark-2iDDfm svg {
+    width: 0;
+}
+#app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after {
+    content: "VOID BEAUTY";
+    position: absolute;
+    font-family: "Google Sans";
+    background: -webkit-gradient(linear, right top, left top, color-stop(60%,#419E85), to(#9CE69D));
+    background: linear-gradient(270deg,#696991 60%,#ccccdb);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 200%;
+    font-size: 13px;
+    font-weight: 600;
+    top: 5px;
+    width: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ПРЯМ КАПЕК КАКАЯ НОВАЯ ХРЕНЬ ДЛЯ МЕНЯ*/
+.sidebar-2K8pFh {
+    width: 300px;
+}
+.container-1taM1r {
+    height: 40px;
+}
+.header-2V-4Sw {
+    position: relative;
+    font-family: "Bahnschrift";
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 16px;
+    height: 35px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 3;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    color: var(--header-primary);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+}
+.container-3fNISf {
+    margin: 8px 0 0 8px;
+    cursor: pointer;
+}
+.bannerImage-3KhIJ6 {
+    width: 300px;
+}
+.bannerImage-3KhIJ6 {
+    position: absolute;
+    height: 135px;
+    width: 300px;
+    top: 0;
+    left: 0;
+}
+.bannerImg-2NHyzX {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 300px;
+}
+.containerDefault-3tr_sE, .containerDragAfter-Zk9oyx, .containerDragBefore-1YqewQ, .containerUserOver-98-yc7 {
+    position: relative;
+    padding-top: 16px;
+    width: 300px;
+    height: 30px;
+}
+.wrapper-PY0fhH {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    padding-right: 8px;
+    padding-left: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    cursor: default;
+    color: var(--channels-default);
+}
+.container-2ax-kl {
+    font-family: "Bahnschrift";
+    font-size: 14px;
+    font-weight: 600;
+    left: 18px;
+    top: 8px;
+}
+
+.icon-2yIBmh {
+    position: absolute;
+    left: 3px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+}
+.container-1r6BKw.themed-ANHk51 {
+    background: var(--background-primary);
+    height: 35px;
+}
+.title-29uC1r {
+    font-family: "Bahnschrift";
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 8px 0 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    min-width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.iconWrapper-2OrFZ1 {
+    position: relative;
+    height: 24px;
+    width: autopx;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 4px;
+}
+.membersGroup-v9BXpm {
+    padding: 24px 8px 0 16px;
+    height: 40px;
+    color: #ccccdb;
+}
+.hiddenMembers-2dcs_q {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: -55px;
+}
+.members-1998pB>div {
+    position: relative;
+    background-color: var(--background-secondary);
+    width: 350px;
+}
+.member-3-YXUe {
+    position: relative;
+    max-width: 350px;
+    margin-left: 10px;
+    top: 1px;
+}
+.container-2wlB3z, .membersWrap-2h-GB4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*People Animatiom*/
+.layout-2DM8Md {
+transition: all 0.5s;
+}
+.layout-2DM8Md:hover {
+transition: all 0.2s;
+transform: translatex(-3px);
+}
+
+
+/*RadialStatus*/
+:root {
+  --status-background: #131318;
+  --user-buttons-color: #5d5d67;
+  --chat-buttons: #5d5d67;
+  --role-circle: 8px;
+  --tooltips: none;
+}
+:root {
+--accent: 255,96,13;
+--message-padding: 10px;
+--message-spacing: 10px;
+--rs-small-spacing: 2px;
+--rs-medium-spacing: 3px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-medium-width: 3px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #636b75;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #747f8d;
+--rs-phone-visible: block;
+}
+
+
+/*Chat Menu*/
+.theme-dark {
+  --colour-1: #ccccdb;
+  --colour-2: #ccccdb;
+  --colour-3: #ccccdb;
+  --colour-4: #ccccdb;
+  --colour-5: #ccccdb;
+  --colour-6: #ccccdb;
+  --colour-7: #ccccdb;
+  --colour-8: #ccccdb;
+  --colour-9: #ccccdb;
+  --colour-10: #ccccdb;
+  }
+
+.theme-light {
+  --colour-1: #ccccdb;
+  --colour-2: #ccccdb;
+  --colour-3: #ccccdb;
+  --colour-4: #ccccdb;
+  --colour-5: #ccccdb;
+  --colour-6: #ccccdb;
+  --colour-7: #ccccdb;
+  --colour-8: #ccccdb;
+  --colour-9: #ccccdb;
+  --colour-10: #ccccdb;
+ }
+
+.modeMuted-onO3r-,.muted-2JBAyG{
+    opacity: 0.5;
+}
+#channels div div:nth-child(2) div div a div, #channels div div:nth-child(2) div div a div svg, #channels div div:nth-child(2) div div.mainContent-2h-GEV, #channels div div:nth-child(2) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-2);
+}
+#channels div div:nth-child(3) div div a div, #channels div div:nth-child(3) div div a div svg, #channels div div:nth-child(3) div div.mainContent-2h-GEV, #channels div div:nth-child(3) div div.mainContent-2h-GEV h2{
+    color: var(--colour-3);
+}
+#channels div div:nth-child(4) div div a div, #channels div div:nth-child(4) div div a div svg, #channels div div:nth-child(4) div div.mainContent-2h-GEV, #channels div div:nth-child(4) div div.mainContent-2h-GEV h2{
+    color: var(--colour-4);
+}
+#channels div div:nth-child(5) div div a div, #channels div div:nth-child(5) div div a div svg, #channels div div:nth-child(5) div div.mainContent-2h-GEV, #channels div div:nth-child(5) div div.mainContent-2h-GEV h2{
+    color: var(--colour-5);
+}
+#channels div div:nth-child(6) div div a div, #channels div div:nth-child(6) div div a div svg, #channels div div:nth-child(6) div div.mainContent-2h-GEV, #channels div div:nth-child(6) div div.mainContent-2h-GEV h2{
+    color: var(--colour-6);
+}
+#channels div div:nth-child(7) div div a div, #channels div div:nth-child(7) div div a div svg, #channels div div:nth-child(7) div div.mainContent-2h-GEV, #channels div div:nth-child(7) div div.mainContent-2h-GEV h2{
+    color: var(--colour-7);
+}
+#channels div div:nth-child(8) div div a div, #channels div div:nth-child(8) div div a div svg, #channels div div:nth-child(8) div div.mainContent-2h-GEV, #channels div div:nth-child(8) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-8);
+}
+#channels div div:nth-child(9) div div a div, #channels div div:nth-child(9) div div a div svg, #channels div div:nth-child(9) div div.mainContent-2h-GEV, #channels div div:nth-child(9) div div.mainContent-2h-GEV h2{
+    color: var(--colour-9);
+}
+#channels div div:nth-child(10) div div a div, #channels div div:nth-child(10) div div a div svg, #channels div div:nth-child(10) div div.mainContent-2h-GEV, #channels div div:nth-child(10) div div.mainContent-2h-GEV h2{
+    color: var(--colour-10);
+}
+#channels div div:nth-child(11) div div a div, #channels div div:nth-child(11) div div a div svg, #channels div div:nth-child(11) div div.mainContent-2h-GEV, #channels div div:nth-child(11) div div.mainContent-2h-GEV h2{
+    color: var(--colour-1);
+}
+#channels div div:nth-child(12) div div a div, #channels div div:nth-child(12) div div a div svg, #channels div div:nth-child(12) div div.mainContent-2h-GEV, #channels div div:nth-child(12) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-2);
+}
+#channels div div:nth-child(13) div div a div, #channels div div:nth-child(13) div div a div svg, #channels div div:nth-child(13) div div.mainContent-2h-GEV, #channels div div:nth-child(13) div div.mainContent-2h-GEV h2{
+    color: var(--colour-3);
+}
+#channels div div:nth-child(14) div div a div, #channels div div:nth-child(14) div div a div svg, #channels div div:nth-child(14) div div.mainContent-2h-GEV, #channels div div:nth-child(14) div div.mainContent-2h-GEV h2{
+    color: var(--colour-4);
+}
+#channels div div:nth-child(15) div div a div, #channels div div:nth-child(15) div div a div svg, #channels div div:nth-child(15) div div.mainContent-2h-GEV, #channels div div:nth-child(15) div div.mainContent-2h-GEV h2{
+    color: var(--colour-5);
+}
+#channels div div:nth-child(16) div div a div, #channels div div:nth-child(16) div div a div svg, #channels div div:nth-child(16) div div.mainContent-2h-GEV, #channels div div:nth-child(16) div div.mainContent-2h-GEV h2{
+    color: var(--colour-6);
+}
+#channels div div:nth-child(17) div div a div, #channels div div:nth-child(17) div div a div svg, #channels div div:nth-child(17) div div.mainContent-2h-GEV, #channels div div:nth-child(17) div div.mainContent-2h-GEV h2{
+    color: var(--colour-7);
+}
+#channels div div:nth-child(18) div div a div, #channels div div:nth-child(18) div div a div svg, #channels div div:nth-child(18) div div.mainContent-2h-GEV, #channels div div:nth-child(18) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-8);
+}
+#channels div div:nth-child(19) div div a div, #channels div div:nth-child(19) div div a div svg, #channels div div:nth-child(19) div div.mainContent-2h-GEV, #channels div div:nth-child(19) div div.mainContent-2h-GEV h2{
+    color: var(--colour-9);
+}
+#channels div div:nth-child(20) div div a div, #channels div div:nth-child(20) div div a div svg, #channels div div:nth-child(20) div div.mainContent-2h-GEV, #channels div div:nth-child(20) div div.mainContent-2h-GEV h2{
+    color: var(--colour-10);
+}
+#channels div div:nth-child(21) div div a div, #channels div div:nth-child(21) div div a div svg, #channels div div:nth-child(21) div div.mainContent-2h-GEV, #channels div div:nth-child(21) div div.mainContent-2h-GEV h2{
+    color: var(--colour-1);
+}
+#channels div div:nth-child(22) div div a div, #channels div div:nth-child(22) div div a div svg, #channels div div:nth-child(22) div div.mainContent-2h-GEV, #channels div div:nth-child(22) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-2);
+}
+#channels div div:nth-child(23) div div a div, #channels div div:nth-child(23) div div a div svg, #channels div div:nth-child(23) div div.mainContent-2h-GEV, #channels div div:nth-child(23) div div.mainContent-2h-GEV h2{
+    color: var(--colour-3);
+}
+#channels div div:nth-child(24) div div a div, #channels div div:nth-child(24) div div a div svg, #channels div div:nth-child(24) div div.mainContent-2h-GEV, #channels div div:nth-child(24) div div.mainContent-2h-GEV h2{
+    color: var(--colour-4);
+}
+#channels div div:nth-child(25) div div a div, #channels div div:nth-child(25) div div a div svg, #channels div div:nth-child(25) div div.mainContent-2h-GEV, #channels div div:nth-child(25) div div.mainContent-2h-GEV h2{
+    color: var(--colour-5);
+}
+#channels div div:nth-child(26) div div a div, #channels div div:nth-child(26) div div a div svg, #channels div div:nth-child(26) div div.mainContent-2h-GEV, #channels div div:nth-child(26) div div.mainContent-2h-GEV h2{
+    color: var(--colour-6);
+}
+#channels div div:nth-child(27) div div a div, #channels div div:nth-child(27) div div a div svg, #channels div div:nth-child(27) div div.mainContent-2h-GEV, #channels div div:nth-child(27) div div.mainContent-2h-GEV h2{
+    color: var(--colour-7);
+}
+#channels div div:nth-child(28) div div a div, #channels div div:nth-child(28) div div a div svg, #channels div div:nth-child(28) div div.mainContent-2h-GEV, #channels div div:nth-child(28) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-8);
+}
+#channels div div:nth-child(29) div div a div, #channels div div:nth-child(29) div div a div svg, #channels div div:nth-child(29) div div.mainContent-2h-GEV, #channels div div:nth-child(29) div div.mainContent-2h-GEV h2{
+    color: var(--colour-9);
+}
+#channels div div:nth-child(30) div div a div, #channels div div:nth-child(30) div div a div svg, #channels div div:nth-child(30) div div.mainContent-2h-GEV, #channels div div:nth-child(30) div div.mainContent-2h-GEV h2{
+    color: var(--colour-10);
+}
+#channels div div:nth-child(31) div div a div, #channels div div:nth-child(31) div div a div svg, #channels div div:nth-child(31) div div.mainContent-2h-GEV, #channels div div:nth-child(31) div div.mainContent-2h-GEV h2{
+    color: var(--colour-1);
+}
+#channels div div:nth-child(32) div div a div, #channels div div:nth-child(32) div div a div svg, #channels div div:nth-child(32) div div.mainContent-2h-GEV, #channels div div:nth-child(32) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-2);
+}
+#channels div div:nth-child(33) div div a div, #channels div div:nth-child(33) div div a div svg, #channels div div:nth-child(33) div div.mainContent-2h-GEV, #channels div div:nth-child(33) div div.mainContent-2h-GEV h2{
+    color: var(--colour-3);
+}
+#channels div div:nth-child(34) div div a div, #channels div div:nth-child(34) div div a div svg, #channels div div:nth-child(34) div div.mainContent-2h-GEV, #channels div div:nth-child(34) div div.mainContent-2h-GEV h2{
+    color: var(--colour-4);
+}
+#channels div div:nth-child(35) div div a div, #channels div div:nth-child(35) div div a div svg, #channels div div:nth-child(35) div div.mainContent-2h-GEV, #channels div div:nth-child(35) div div.mainContent-2h-GEV h2{
+    color: var(--colour-5);
+}
+#channels div div:nth-child(36) div div a div, #channels div div:nth-child(36) div div a div svg, #channels div div:nth-child(36) div div.mainContent-2h-GEV, #channels div div:nth-child(36) div div.mainContent-2h-GEV h2{
+    color: var(--colour-6);
+}
+#channels div div:nth-child(37) div div a div, #channels div div:nth-child(37) div div a div svg, #channels div div:nth-child(37) div div.mainContent-2h-GEV, #channels div div:nth-child(37) div div.mainContent-2h-GEV h2{
+    color: var(--colour-7);
+}
+#channels div div:nth-child(38) div div a div, #channels div div:nth-child(38) div div a div svg, #channels div div:nth-child(38) div div.mainContent-2h-GEV, #channels div div:nth-child(38) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-8);
+}
+#channels div div:nth-child(39) div div a div, #channels div div:nth-child(39) div div a div svg, #channels div div:nth-child(39) div div.mainContent-2h-GEV, #channels div div:nth-child(39) div div.mainContent-2h-GEV h2{
+    color: var(--colour-9);
+}
+#channels div div:nth-child(40) div div a div, #channels div div:nth-child(40) div div a div svg, #channels div div:nth-child(40) div div.mainContent-2h-GEV, #channels div div:nth-child(40) div div.mainContent-2h-GEV h2{
+    color: var(--colour-10);
+}
+#channels div div:nth-child(41) div div a div, #channels div div:nth-child(41) div div a div svg, #channels div div:nth-child(41) div div.mainContent-2h-GEV, #channels div div:nth-child(41) div div.mainContent-2h-GEV h2{
+    color: var(--colour-1);
+}
+#channels div div:nth-child(42) div div a div, #channels div div:nth-child(42) div div a div svg, #channels div div:nth-child(42) div div.mainContent-2h-GEV, #channels div div:nth-child(42) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-2);
+}
+#channels div div:nth-child(43) div div a div, #channels div div:nth-child(43) div div a div svg, #channels div div:nth-child(43) div div.mainContent-2h-GEV, #channels div div:nth-child(43) div div.mainContent-2h-GEV h2{
+    color: var(--colour-3);
+}
+#channels div div:nth-child(44) div div a div, #channels div div:nth-child(44) div div a div svg, #channels div div:nth-child(44) div div.mainContent-2h-GEV, #channels div div:nth-child(44) div div.mainContent-2h-GEV h2{
+    color: var(--colour-4);
+}
+#channels div div:nth-child(45) div div a div, #channels div div:nth-child(45) div div a div svg, #channels div div:nth-child(45) div div.mainContent-2h-GEV, #channels div div:nth-child(45) div div.mainContent-2h-GEV h2{
+    color: var(--colour-5);
+}
+#channels div div:nth-child(46) div div a div, #channels div div:nth-child(46) div div a div svg, #channels div div:nth-child(46) div div.mainContent-2h-GEV, #channels div div:nth-child(46) div div.mainContent-2h-GEV h2{
+    color: var(--colour-6);
+}
+#channels div div:nth-child(47) div div a div, #channels div div:nth-child(47) div div a div svg, #channels div div:nth-child(47) div div.mainContent-2h-GEV, #channels div div:nth-child(47) div div.mainContent-2h-GEV h2{
+    color: var(--colour-7);
+}
+#channels div div:nth-child(48) div div a div, #channels div div:nth-child(48) div div a div svg, #channels div div:nth-child(48) div div.mainContent-2h-GEV, #channels div div:nth-child(48) div div.mainContent-2h-GEV h2 div {
+    color: var(--colour-8);
+}
+#channels div div:nth-child(49) div div a div, #channels div div:nth-child(49) div div a div svg, #channels div div:nth-child(49) div div.mainContent-2h-GEV, #channels div div:nth-child(49) div div.mainContent-2h-GEV h2{
+    color: var(--colour-9);
+}
+#channels div div:nth-child(50) div div a div, #channels div div:nth-child(50) div div a div svg, #channels div div:nth-child(50) div div.mainContent-2h-GEV, #channels div div:nth-child(50) div div.mainContent-2h-GEV h2{
+    color: var(--colour-10);
+}
+
+
+/*Theme Colors*/
+.theme-dark {
+    --background-tertiary: #131318;
+    --background-secondary: #1d1d27;
+    --background-secondary-alt: #131318;
+    --background-primary: #1d1d27;
+    --background-mobile-primary: #1d1d27;
+    --background-mobile-secondary: #131318;
+    --channeltextarea-background: #131318;
+    --background-accent: #5d5d67;
+    --background-modifier-hover: #2d2d37;
+    --background-modifier-active: #2d2d37;
+    --background-modifier-selected: #2d2d37;
+    --deprecated-card-bg: #131318;
+    --background-floating: #1d1d27;
+    --deprecated-quickswitcher-input-background:#1d1d27;
+    --activity-card-background: #1d1d27;
+}
+/*connected accounts in profile*/
+.connectedAccount-36nQx7 {
+  border: solid #1d1d27;
+}
+
+/*friends window backgroud*/
+#app-mount .container-1D34oG {
+    background: #1d1d27;
+}
+
+/*header playing*/
+.headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+  background-color: #2d2d37;
+  box-shadow: 0px 4px 15px #1d1d27;
+  color: #ffffff;
+}
+.headerPlaying-j0WQBV .activityUserPopout-2yItg2 {
+  background: #1d1d27;
+  box-shadow: 0px 4px 0px #1d1d27;
+}
+.headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { 
+  background-color: #5d5d67;
+}
+
+/*header spotify*/
+.headerSpotify-zpWxgT
+  .buttonsWrapper-2spIeK
+  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+  background-color: #2d2d37;
+  box-shadow: 0 4px 15px #1d1d27; 
+  color: #ffffff;
+}
+.headerSpotify-zpWxgT .activityUserPopout-2yItg2 {
+  background: #1d1d27;
+  box-shadow: 0px 4px 0px #1d1d27;
+}
+.headerSpotify-zpWxgT .buttonsWrapper-2spIeK .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { 
+  background-color: #5d5d67;
+}
+
+/*header streaming*/
+.headerStreaming-2FjmGz  .buttonsWrapper-2spIeK
+  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+  background-color: #2d2d37;
+  box-shadow: 0 4px 15px #1d1d27; 
+  color: #ffffff;
+}
+.headerStreaming-2FjmGz .activityUserPopout-2yItg2 {
+  background: #1d1d27;
+  box-shadow: 0px 4px 0px #1d1d27;
+}
+.headerStreaming-2FjmGz .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover { 
+  background-color: #5d5d67;
+}
+
+/*top section normal*/
+.topSectionNormal-2-vo2m .actionButton-3W1xZa {
+  background: #2d2d37 !important;
+}
+
+/*top section playing*/
+.topSectionPlaying-1J5E4n .activityProfile-2bJRaP {
+  background: #1d1d27;
+  box-shadow: 0px 4px 0px #1d1d27;
+}
+.topSectionPlaying-1J5E4n .actionButton-3W1xZa {
+  color: #ffffff;
+  background: #2d2d37 !important;
+}
+.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4 {
+  background-color: #2d2d37;
+  box-shadow: 0px 4px 15px #1d1d27;
+  color: #ffffff;
+}
+.topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .button-2IFFQ4:hover { 
+  background-color: #5d5d67;
+}
+
+/*top section spotify*/
+.topSectionSpotify-1lI0-P .activityProfile-2bJRaP {
+  background: #1d1d27;
+  box-shadow: 0px 4px 0px #1d1d27;
+}
+.topSectionSpotify-1lI0-P .actionButton-3W1xZa {
+  color: #ffffff;
+  background: #2d2d37 !important;
+}
+.topSectionSpotify-1lI0-P .actionsProfile-jEtjVX .button-2IFFQ4 {
+  background-color: #2d2d37;
+  box-shadow: 0px 4px 15px #1d1d27;
+  color: #ffffff;
+}
+.topSectionSpotify-1lI0-P .actionsProfile-jEtjVX .button-2IFFQ4:hover { 
+  background-color: #5d5d67;
+}
+
+/*top section streaming*/
+.topSectionStreaming-1Tpf5X .activityProfile-2bJRaP {
+  background: #1d1d27;
+  box-shadow: 0px 4px 0px #1d1d27;
+}
+.topSectionStreaming-1Tpf5X .header-QKLPzZ .button-38aScr {
+  color: #ffffff;
+  background: #2d2d37 !important;
+}
+.topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX .button-2IFFQ4 {
+  background-color: #2d2d37;
+  box-shadow: 0px 4px 15px #1d1d27;
+  color: #ffffff;
+}
+.topSectionStreaming-1Tpf5X .actionsProfile-jEtjVX .button-2IFFQ4:hover { 
+  background-color: #5d5d67;
+}
+
+/*for selected in that scroll list for pings in chat*/
+.theme-dark .selected-1Tbx07 {
+  background: #2d2d37;
+}
+
+
+/* Two Column VCs */
+.list-2luk8a.listDefault-3ir5aS {
+    padding: 0 0 0 6px;
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.content-1Wq3SX .username-3KYl0N {margin-left: 4px}
+.content-1Wq3SX .botTag-2WPJ74 {display: none}
+.content-1Wq3SX .avatar-3tNQiO,
+.audienceVoiceUserIconContainer-29oflP {margin-right: 0; margin-left: 0}
+.audienceVoiceUserText-BhGzmw {
+    font-size: 12px; 
+    margin-left: 4px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.liveIconSpacing-DSnkAT {margin-left: 4px; padding: 4px}
+.live-vBWnV6 {
+    font-size: 0;
+    border-radius: 100%;
+    min-height: 8px;
+    min-width: 16px;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    animation: 2s stream-live infinite;
+}
+@keyframes stream-live {
+  0% {box-shadow: 0 0 0 0 rgb(240,71,71)}
+  70% {box-shadow: 0 0 0 6px rgba(0, 0, 0, 0)}
+  100% {box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)}
+}
+
+
+/* Custom Color Nickname + official Profile v1 */
+.userPopout-xaxa6l[data-user-id="271920603668152321"] .profileBadges-3cJaE1::before, .userPopout-xaxa6l[vz-user-id="271920603668152321"] .profileBadges-3cJaE1::before {
+    content: "";
+    position: relative;
+    width: 20px;
+    height: 17px;
+    margin: 0 6px;
+    pointer-events: none;
+    background: url("https://cdn.discordapp.com/emojis/811010999061708830.gif?v=1") center/100% no-repeat;
+}
+
+.member-3-YXUe .wrapper-3t9DeA[data-user-id="271920603668152321"]::before, .member-3-YXUe .wrapper-3t9DeA[vz-user-id="271920603668152321"]::before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 14px;
+    bottom: -3px;
+    left: -5px;
+    z-index: 2;
+    background: url("https://cdn.discordapp.com/emojis/811010999061708830.gif?v=1") no-repeat;
+    background-size: 85%;
+    background-position: bottom left;
+    background-color: var(--background-secondary);
+    border-radius: 0 5px 0 0;
+    pointer-events: none;
+}
+
+
+.message-2qnXI6[data-user-id="271920603668152321"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="271920603668152321"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="271920603668152321"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="271920603668152321"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="271920603668152321"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="271920603668152321"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="271920603668152321"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="271920603668152321"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="271920603668152321"] .username-2b1r56,
+.root-3QyAh1[data-user-id="271920603668152321"] .username-2b1r56,
+
+.message-2qnXI6[data-user-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="860625185438171166"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="860625185438171166"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="860625185438171166"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="860625185438171166"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="860625185438171166"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="860625185438171166"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="860625185438171166"] .username-2b1r56,
+.root-3QyAh1[data-user-id="860625185438171166"] .username-2b1r56 {
+    color: transparent !important;
+    font-weight: bold;
+    background-size: 300%;
+    animation: shine 10s linear infinite;
+    -webkit-background-clip: text;
+}
+
+@keyframes shine {
+    to {
+        background-position: 300% center;
+    }
+}
+
+.message-2qnXI6[data-user-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="860625185438171166"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="860625185438171166"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="860625185438171166"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="860625185438171166"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="860625185438171166"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="860625185438171166"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="860625185438171166"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="860625185438171166"] .username-2b1r56,
+.root-3QyAh1[data-user-id="860625185438171166"] .username-2b1r56,
+
+.message-2qnXI6[data-user-id="271920603668152321"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="271920603668152321"] > :not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[vz-user-id="271920603668152321"] .username-1A8OIy,
+.channel-2QD9_O[data-user-id="271920603668152321"] .overflow-WK9Ogt,
+.channel-2QD9_O[vz-user-id="271920603668152321"] .overflow-WK9Ogt,
+.member-3-YXUe[data-user-id="271920603668152321"] .roleColor-rz2vM0,
+.member-3-YXUe[vz-user-id="271920603668152321"] .roleColor-rz2vM0,
+.userPopout-xaxa6l[data-user-id="271920603668152321"] .username-2b1r56,
+.userPopout-xaxa6l[vz-user-id="271920603668152321"] .username-2b1r56,
+.root-3QyAh1[data-user-id="271920603668152321"] .username-2b1r56 {
+    background-image: linear-gradient(-60deg, #696991 25%,  #ccccdb 50%, #696991 75%,  #ccccdb 100%);
+}
