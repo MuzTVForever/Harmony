@@ -3,8 +3,8 @@
 .membersWrap-2h-GB4,
 .searchResultsWrap-3-pOjs {
   border-radius: 0 0 0 0 !important;
-  width: 2px;
-  min-width: 2px;
+  width: 1px;
+  min-width: 1px;
   transition-property: width, min-width;
   transition-duration: 800ms;
 }
