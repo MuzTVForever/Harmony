@@ -28,8 +28,8 @@
   box-shadow: none;
 }
 .chatContent-a9vAAp {
-  min-width: calc(100% - 60px);
-  max-width: calc(100% - 60px);
+  min-width: 100%;
+  max-width: 100%;
 }
 .chatContent-a9vAAp[aria-label=" (channel)"] {
   min-width: 100%;
